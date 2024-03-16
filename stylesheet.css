@@ -291,7 +291,7 @@ section {
 
 .container1 {
     width: 600px;
-    height: 500px;
+    height: auto;
     padding: 75px 90px;
     margin-left: 120px;
 }
