@@ -5,3 +5,13 @@ var typed = new Typed(".text", {
     backDelay: 1000,
     loop: true
 });
+
+document.oncontextmenu = () => {
+    return false
+}
+
+document.onkeydown = e => {
+    if(e.key == "F12") {
+        return false
+    }
+}
